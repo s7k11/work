@@ -7,6 +7,7 @@ body
 {
 	background-color: #000;
 	font-family: 'Raleway', sans-serif;
+	overflow-x: hidden;
 }
 form .color
 {
@@ -47,6 +48,56 @@ form input:focus
 form label
 {
 	text-align: center;
+}
+.fas
+{
+	color: #FFF;
+	font-size: 30px;
+	border-radius: 200px;
+	border: 1px solid #FFF;
+	width: 40px;
+	height: 40px;
+  padding-top: 10%;
+}
+.btn-align
+{
+	position: relative;
+	left: 37%;
+	opacity: 1;
+	transition: .5s ease-in-out;
+}
+.btn-minus
+{
+	opacity: 0;
+		position: relative;
+	left: 30%;
+	transition: .5s ease-in-out;
+}
+.btn:focus
+{
+	box-shadow: none;
+}
+.show1,.show2,.show3,.show4,.show5,.show6,.show7
+{
+	opacity: 0;
+	height: 70px;
+	border-radius: 50px;
+	/* background-color: #09C; */
+	transition: .5s ease-in-out;
+	/* border: 1px solid #FFF; */
+	/* background-image: linear-gradient(to top, #111010, #282727, #403f3f, #595959, #747474); */
+	/* background-image: radial-gradient(circle, #2557b5, #294ea7, #2a4599, #2a3c8b, #29347e); */
+	background-image: linear-gradient(to bottom, #2557b5, #264593, #223572, #1c2554, #131737);
+box-shadow: 1px 1px 3px 1px rgba(41,52,126,1);
+}
+
+/* .show2:hover{
+	transition: 5s ease-in-out;
+	background-image: linear-gradient(to bottom, #b5253e, #951f33, #761829, #59121e, #3d0c14);
+} */
+
+
+
 }
 .form-control:focus
 {
