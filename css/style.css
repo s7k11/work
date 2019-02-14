@@ -13,11 +13,17 @@ form .color
 {
 	transition: .5s ease-in-out;
 	background-color: rgba(0,0,0,0.1);
+    
 
+}
+form
+{
+    transition: 1s ease-in-out;
 }
 .btn
 {
 	border-radius: 10px;
+    
 }
 form label
 {
@@ -27,7 +33,7 @@ form input:focus
 {
 	transition: .5s ease-in-out;
 	outline-style: hidden !important;
-	border-bottom: none !important;
+	border-bottom: 1px solid #333 !important;
 	background-color: #333;
 }
 .form-control
@@ -51,7 +57,7 @@ form label
 }
 .fas
 {
-	color: #FFF;
+	color: #aaa;
 	font-size: 30px;
 	border-radius: 200px;
 	border: 1px solid #FFF;
@@ -62,10 +68,11 @@ form label
 .btn-align
 {
 	position: relative;
-	left: 37%;
+	left: 42%;
 	opacity: 1;
 	transition: .5s ease-in-out;
 }
+/*
 .btn-minus
 {
 	opacity: 0;
@@ -73,6 +80,7 @@ form label
 	left: 30%;
 	transition: .5s ease-in-out;
 }
+*/
 .btn:focus
 {
 	box-shadow: none;
@@ -134,6 +142,7 @@ form label
 	transition: 1s ease-in-out;
 	box-shadow: none;
 	background-color: #000;
+	color: #FFF;
 } 
 
 .btn-effect{
@@ -141,4 +150,7 @@ form label
 	/* background-image: linear-gradient(to left, #5f7adc, #4f68c4, #4056ad, #2f4597, #1e3581);
 	background-size: 100%; */
 
+}
+.rotateButton{
+    transform: rotateZ(45deg);
 }
