@@ -93,6 +93,7 @@ form label
 	/* background-color: #09C; */
 	transition: .5s ease-in-out;
 	background-color: #333;
+	cursor: pointer; 
 	/* border: 1px solid #FFF; */
 	/* background-image: linear-gradient(to top, #111010, #282727, #403f3f, #595959, #747474); */
 	/* background-image: radial-gradient(circle, #2557b5, #294ea7, #2a4599, #2a3c8b, #29347e); */
@@ -153,4 +154,20 @@ form label
 }
 .rotateButton{
     transform: rotateZ(45deg);
+}
+.row a
+{
+	color: #FFF;
+	display: block;
+}
+.row a:hover
+{
+	color: #FFF;
+	text-decoration: none;
+	/* transform: scale(1.5);  */
+	/* transition: .3s ease-in-out; */
+}
+
+.show1{
+	
 }

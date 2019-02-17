@@ -46,18 +46,24 @@
 		</form>
 		</div>
 		<div class="row">
-			<div class="col-lg-1 show1 offset-lg-1 text-center text-white">Adobe</div>
-			<div class="col-lg-1 show2 offset-lg-1 text-white text-center">Graphic Design</div>
-			<div class="col-lg-1 show3 offset-lg-4 text-white text-center ">Marketing</div>
-			<div class="col-lg-1 show4 offset-lg-1 text-center text-white">Cyber Security</div>
+			<div class="col-lg-1 show1 offset-lg-1 text-center text-white"><br><a href="">Adobe</a></div>
+			<div class="col-lg-1 show2 offset-lg-1 text-white text-center"><a href="">Graphic Design</a></div>
+			<div class="col-lg-1 show3 offset-lg-4 text-white text-center "><br><a href="">Marketing</a></div>
+			<div class="col-lg-1 show4 offset-lg-1 text-center text-white"><a href="">Cyber Security</a></div>
 		</div>
 		<div class="row">	
-			<div class="col-lg-1 show5 offset-lg-2 text-center text-white">Web Development Php</div>
-			<div class="col-lg-2 show6 text-white offset-lg-2 text-center">Web Development javascript</div>
-			<div class="col-lg-1 show7 offset-lg-2 text-white text-center">Web Development Python</div>
+			<div class="col-lg-1 show5 offset-lg-2 text-center text-white"><a href="">Web Development Php</a></div>
+			<div class="col-lg-2 show6 text-white offset-lg-2 text-center"><a href="">Web Development javascript</a></div>
+			<div class="col-lg-1 show7 offset-lg-2 text-white text-center"><a href="">Web Development Python</a></div>
 		</div>
 		
 	</div>
+	<script type="text/javascript">
+		$(".show1,.show2,.show3,.show4,.show5,.show6,.show7").click(function(){
+			window.location = $(this).find("a").attr("href");
+			return false;
+		});
+	</script>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
