@@ -55,22 +55,18 @@ form label
 {
 	text-align: center;
 }
-.fas
+.fa-plus-circle
 {
 	color: #aaa;
-	font-size: 30px;
-	border-radius: 200px;
-	border: 1px solid #FFF;
-	width: 40px;
-	height: 40px;
+	font-size: 25px;
   padding-top: 10%;
 }
 .btn-align
 {
-	position: relative;
-	left: 42%;
+	
 	opacity: 1;
-	transition: .5s ease-in-out;
+	transition: .2s ease-in-out;
+	 
 }
 /*
 .btn-minus
@@ -91,7 +87,8 @@ form label
 	height: 70px;
 	border-radius: 10px;
 	/* background-color: #09C; */
-	transition: .5s ease-in-out;
+	transition:opacity .5s ease-in-out ;
+	
 	background-color: #333;
 	cursor: pointer; 
 	/* border: 1px solid #FFF; */
@@ -100,29 +97,47 @@ form label
 	/* background-image: linear-gradient(to bottom, #2557b5, #264593, #223572, #1c2554, #131737); */
 /* box-shadow: 1px 1px 3px 1px rgba(41,52,126,1); */
 }
+.show1
+{
+	transition:opacity .5s ease-in-out 0s;
+	transition:all .3s ease-in-out 0s;
+}
 .show2
 {
-	transition-delay: 0.2s;
+	transition:opacity .5s ease-in-out 0.2s;
+	transition:all .3s ease-in-out 0s;
+	/* transition:background-color .3s ease-in-out 0s; */
+	/* transition-delay: 0.2s; */
 }
 .show3
 {
-	transition-delay: 0.6s;
+	transition:opacity .5s ease-in-out 0.6s;
+	transition:all .3s ease-in-out 0s;
+	/* transition-delay: 0.6s; */
 }
 .show4
 {
-	transition-delay: 1s;
+	transition:opacity .5s ease-in-out 1s;
+	transition:all .3s ease-in-out 0s;
+	/* transition-delay: 1s; */
 }
 .show5
 {
-	transition-delay: 0.2s;
+	transition:opacity .5s ease-in-out 0.2s;
+	transition:all .3s ease-in-out 0s;
+	/* transition-delay: 0.2s; */
 }
 .show6
 {
-	transition-delay: 0.4s;
+	transition:opacity .5s ease-in-out 0.4s;
+	transition:all .3s ease-in-out 0s;
+	/* transition-delay: 0.4s; */
 }
 .show7
 {
-	transition-delay: 0.8s;
+	transition:opacity .5s ease-in-out 0.8s;
+	transition:all .3s ease-in-out 0s;
+	/* transition-delay: 0.8s; */
 }
 /* .show2:hover{
 	transition: 5s ease-in-out;
@@ -153,7 +168,8 @@ form label
 
 }
 .rotateButton{
-    transform: rotateZ(45deg);
+		transform: rotateZ(45deg);
+		transform-origin: center;
 }
 .row a
 {
@@ -168,6 +184,32 @@ form label
 	/* transition: .3s ease-in-out; */
 }
 
-.show1{
-	
+.checked
+{
+	background-color: #2e86de;
+	/* transition: background-color .5s ease-in-out;   */
 }
+.fa-check
+{
+	opacity: 0;
+	transition: 0.3s ease-in-out;
+
+}
+span
+{
+	transition: 0.3s ease-in-out;
+}
+.checked span{
+
+	font-size: 14px;
+}
+.checked .fa-check
+{
+	opacity: 1;
+}
+input[type=checkbox]{
+	height: 0%;
+	width: 0;
+	opacity:0;
+}
+
